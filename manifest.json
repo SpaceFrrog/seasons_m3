@@ -3,6 +3,7 @@
   "short_name": "Saison",
   "description": "Regionaler Saisonkalender für Obst, Gemüse und Kräuter in Deutschland",
   "start_url": "/index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f7fdf1",
   "theme_color": "#1a3a0a",
