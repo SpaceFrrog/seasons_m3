@@ -2,22 +2,23 @@
   "name": "Saisonkalender",
   "short_name": "Saison",
   "description": "Regionaler Saisonkalender für Obst, Gemüse und Kräuter in Deutschland",
-  "start_url": "/index.html",
-  "scope": "./",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7fdf1",
   "theme_color": "#1a3a0a",
   "orientation": "portrait",
- "icons": [
+  "icons": [
     {
       "src": "Test_192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "Test_512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
