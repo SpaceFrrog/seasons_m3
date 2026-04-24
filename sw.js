@@ -3,8 +3,8 @@ const ASSETS = [
   '/seasons_m3/',
   '/seasons_m3/index.html',
   '/seasons_m3/manifest.json',
-  '/seasons_m3/icon-192.png',
-  '/seasons_m3/icon-512.png'
+  '/seasons_m3/Test_192.png',
+  '/seasons_m3/Test_512.png'
 ];
 
 self.addEventListener('install', (event) => {
