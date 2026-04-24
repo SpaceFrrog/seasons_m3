@@ -576,7 +576,7 @@ mark {
   </button>
   <button class="nav-item" data-nav="today" onclick="setNav(this)">
     <div class="nav-indicator"><span class="material-symbols-rounded">today</span></div>
-    <span class="nav-label">Jetzt saison</span>
+    <span class="nav-label">Aktuelle Saison</span>
   </button>
   <button class="nav-item" data-nav="info" onclick="setNav(this)">
     <div class="nav-indicator"><span class="material-symbols-rounded">info</span></div>
@@ -667,7 +667,7 @@ function getStatus(item) {
   if (v===M) return {label:'Hauptsaison', cls:'status-main', icon:'check_circle'};
   if (v===S) return {label:'Nebensaison', cls:'status-sub',  icon:'schedule'};
   if (v===L) return {label:'Lagerware',   cls:'status-lag',  icon:'inventory_2'};
-  return {label:'Nicht saison', cls:'status-none', icon:'remove_circle'};
+  return {label:'keine Saison', cls:'status-none', icon:'remove_circle'};
 }
 
 function highlight(text, q) {
@@ -773,7 +773,7 @@ function showInfo() {
     ['check_circle','status-main','Hauptsaison','Frisch geerntet – beste Qualität & niedrigste Umweltbelastung'],
     ['schedule','status-sub','Nebensaison','Regional verfügbar, leicht eingeschränkte Verfügbarkeit'],
     ['inventory_2','status-lag','Lagerware','Regional angebaut und eingelagert – trotzdem klimaschonender als Importe'],
-    ['remove_circle','status-none','Nicht verfügbar','Jetzt nicht regional erhältlich'],
+    ['remove_circle','status-none','Nicht verfügbar','Momentan nicht regional erhältlich'],
   ];
 
   const cardBase = `background:var(--md-sys-color-surface-container);padding:16px 20px;box-shadow:none;`;
