@@ -1,6 +1,6 @@
 {
   "name": "Saisonkalender",
-  "short_name": "Saison",
+  "short_name": "Seasons",
   "description": "Regionaler Saisonkalender für Obst, Gemüse und Kräuter in Deutschland",
   "start_url": "/seasons_m3/index.html",
   "scope": "/seasons_m3/",
